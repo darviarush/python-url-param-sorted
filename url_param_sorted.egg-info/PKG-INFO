@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: url-param-sorted
+Version: 0.0.0
+Summary: python-url-param-sorted -
+Home-page: https://github.com/darviarush/python-url-param-sorted
+Author: Kosmina O. Yaroslav
+Author-email: darviarush@mail.ru
+License: MIT
+Description: # NAME
+        
+        python-url-param-sorted -
+        
+        # VERSION
+        
+        0.0.0
+        
+        # SYNOPSIS
+        
+        ```python
+        ```
+        
+        # DESCRIPTION
+        
+        
+        
+        # INSTALL
+        
+        ```sh
+        $ pip3 install python-url-param-sorted
+        ```
+        
+        # REQUIREMENTS
+        
+        * data-printer
+        
+        # AUTHOR
+        
+        Kosmina O. Yaroslav <darviarush@mail.ru>
+        
+        # LICENSE
+        
+        MIT License
+        
+        Copyright (c) 2020 Kosmina O. Yaroslav
+        
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
