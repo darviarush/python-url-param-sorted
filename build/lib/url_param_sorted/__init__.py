@@ -17,7 +17,7 @@ def url_param_sorted(query):
     elif isinstance(query, dict):
         param = query
     else:
-        raise TypeError("query может быть только str или dict")
+        raise TypeError("Аргумент может быть только str или dict")
 
 
     key = lambda s: "" if s is None else f"={s}"

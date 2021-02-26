@@ -16,7 +16,8 @@ description = get(r'^# NAME\s*([^\n]+?)\s*$', "о описание")
 requirements = get(r'^# REQUIREMENTS\s*\n\*([^#]*?)\s*#', "ы зависимости")
 
 requirements = requirements.group(1)
-requirements = [] if requirements == 'Нет' else requirements.split('\n* ')
+
+requirements = [] if requirements == ' Нет' else requirements.split('\n* ')
 
 setup(
     name='url-param-sorted',
@@ -25,7 +26,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
 
-    scripts=['url-param-sorted'],
+    scripts=['bin/url-param-sorted'],
     platforms=['any'],
     python_requires='>=3.6',
     # The project's main homepage.

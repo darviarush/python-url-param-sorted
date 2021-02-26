@@ -4,7 +4,7 @@ url-param-sorted - предоставляет функцию для cортир�
 
 # VERSION
 
-0.0.0
+0.0.2
 
 # SYNOPSIS
 
@@ -35,7 +35,7 @@ x=1&x=2&x=3&y=1&z&z=
 # INSTALL
 
 ```sh
-$ pip3 install python-url-param-sorted
+$ pip3 install url-param-sorted
 ```
 
 # REQUIREMENTS
